@@ -1,18 +1,18 @@
-# 個人備份工具說明網站
+# Personal backup tool website
 
-提供工具首頁與隱私權政策的靜態網站。
+A static site that provides the homepage and privacy policy for a personal backup tool.
 
-## 檔案
+## Files
 
-- `index.html`：工具用途、Google Drive 權限及隱私權政策連結。
-- `privacy.html`：資料處理、保留及撤銷授權方式。
-- `style.css`：共用樣式。
-- `.nojekyll`：讓 GitHub Pages 直接提供靜態檔案。
+- `index.html`: what the tool does, its Google Drive permission, and a link to the privacy policy.
+- `privacy.html`: how data is handled and retained, and how to revoke access.
+- `style.css`: shared styles.
+- `.nojekyll`: lets GitHub Pages serve the files as they are.
 
-## 發布
+## Publishing
 
-由 `main` 分支的根目錄發布至 GitHub Pages。首頁與隱私權政策的網址沿用既有 OAuth 設定。
+GitHub Pages publishes the root of the `main` branch. The homepage and privacy policy URLs are the ones already set in the OAuth configuration.
 
-公開內容僅保留工具用途、必要的應用程式名稱及資料處理說明。兩頁皆使用 `noindex`，請求搜尋引擎不要索引；網站仍可公開存取。
+The public pages contain only the tool's purpose, the required app name, and the data-handling statement. Both pages use `noindex` to ask search engines not to index them; the site remains publicly accessible.
 
-更新後確認首頁、隱私權政策及樣式正常載入。此儲存庫僅存放網站檔案。
+After each update, check that the homepage, privacy policy, and styles load correctly. This repository holds only the website files.
